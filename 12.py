@@ -16,8 +16,6 @@ def f():
                 for item in row:
                     t[n].append(item.v )
                     n += 1
-                if a > 600:
-                    break
     #print(t[0])
 f()
 print(t[0][:10])
